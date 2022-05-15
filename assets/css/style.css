@@ -1,0 +1,455 @@
+@import url('https://fonts.maateen.me/kalpurush/font.css');
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+body {
+    font-family: 'Kalpurush', sans-serif;
+}
+
+a {
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+.col-sm-5 {
+    width: 40%;
+}
+
+.col-sm-7 {
+    width: 60%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Kalpurush', sans-serif;
+}
+
+.deshbord_profile h4 {
+    margin-left: 9px;
+    color: #fff;
+    /* font-size: 12px; */
+    font-size: 16px;
+    text-shadow: 0px 0px 3px #9c9c9c;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
+
+/*--------------------------------------------------------------
+# Dehbord Buttom Menu
+--------------------------------------------------------------*/
+
+#main-deshbord-contant {}
+
+#deshbord_top_bar {
+    background: #0d6efd;
+    padding: 10px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+}
+
+.beshbord_balance {
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    background: #fff;
+}
+
+.deshbord_profile {}
+
+.deshbord_profile img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+s.col-sm-6 {
+    width: 50%;
+}
+
+.beshbord_balance h5 {
+    color: black;
+    /* font-size: 12px;
+    top: 10px; */
+    text-align: center;
+    position: relative;
+    text-shadow: 1px 0px 0px #eeeeee;
+    font-size: 16px;
+    line-height: 16px;
+    top: 10px;
+}
+
+#footer_deshbodt_top {
+    background-color: #0d6efd;
+    color: #ffff;
+    width: 100%;
+}
+
+.active {
+    color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# deshbord_main_contant
+--------------------------------------------------------------*/
+
+.deshbord_main_contant {}
+
+.deshbord_main_contant ul {
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.deshbord_main_contant ul li {
+    display: inline-block;
+    text-align: center;
+    padding: 0px 15px;
+}
+
+.deshbord_main_contant ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    /* font-size: 11px; */
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.deshbord_main_contant ul li span {
+    display: block;
+}
+
+.deshbord_main_contant ul li span img {
+    width: 40px !important;
+}
+
+#deshbord_main_content {
+    padding-top: 120px;
+    background: radial-gradient(#40ffdc, #e6ff2f45);
+    box-shadow: 0px 0px 6px #05ce00;
+    margin-bottom: 10px;
+}
+
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    display: none;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #9f9f9f;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #0d6efd;
+}
+
+.item img {
+    height: 130px;
+    object-fit: cover;
+}
+
+#deshbord_main_content2 {
+    background: radial-gradient(#40ffdc, #e6ff2f45);
+    box-shadow: 0px 0px 7px #05ce00;
+    margin-bottom: 100px;
+}
+
+.box-shadow-section {}
+
+.content-two {}
+
+.content-two ul {
+    margin: 0px;
+    padding: 15px 0px;
+}
+
+.deshbord_buttom_menu {
+    background: #0d6efd;
+    color: #ffff;
+}
+
+.deshbord_buttom_menu ul {
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0px;
+}
+
+.deshbord_buttom_menu ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.deshbord_buttom_menu ul li a {
+    /* font-size: 12px; */
+    font-size: 18px;
+}
+
+.deshbord_buttom_menu ul li a:hover {}
+
+.deshbord_buttom_menu ul li i {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin: -10px;
+    color: #ebebeb;
+}
+
+.deshbord_buttom_menu ul li span img {
+    display: block;
+    width: 35px;
+    margin: auto;
+}
+
+
+/*--------------------------------------------------------------
+# profile image uplode
+--------------------------------------------------------------*/
+
+#profile_image_uplode {
+    background: radial-gradient(#40ffdc, #e6ff2f45);
+    box-shadow: 0px 0px 7px #05ce00;
+    height: 100vh;
+}
+
+.profile_image_ulode img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+    position: relative;
+    margin-top: 20px;
+}
+
+.profile_image_ulode {}
+
+.profile_image_ulode ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.profile_image_ulode ul li {
+    border-bottom: 1px dotted black;
+    padding: 10px 0px;
+}
+
+.profile_image_ulode ul li:last-child {
+    border-bottom: 0px dotted black;
+}
+
+.profile_image_ulode ul li a {
+    color: black;
+    padding: 10px 0px;
+}
+
+.profile_image_ulode ul li a:hover {}
+
+.edit-profile {
+    background: linear-gradient(45deg, #0d6efd, #6f4eb9);
+    color: #fff;
+    margin: auto;
+    border-radius: 25px;
+    padding: 8px 30px;
+    margin-bottom: 20px;
+    transition: all 0.25s linear;
+}
+
+.col-sm-4 {
+    width: 33%;
+}
+
+.edit-profile:hover {
+    background: linear-gradient(45deg, #6f4eb9, #0d6efd);
+    color: #fff;
+}
+
+#edit_profile_id {
+    background: radial-gradient(#40ffdc, #e6ff2f45);
+    box-shadow: 0px 0px 7px #05ce00;
+}
+
+label {
+    display: inline-block;
+   /*  color: red; */
+}
+
+.input-groupp input {
+   /*  border: 1px solid blue; */
+    margin: 5px 0px;
+}
+
+.home-manu-footer {
+    position: fixed;
+    bottom: 0px;
+    z-index: 9;
+}
+
+.action-form {
+    margin-top: 30px;
+}
+
+.form-3 {
+    height: 81vh;
+}
+
+.plian-active-1 {
+    background: radial-gradient(#40ffdc, #e6ff2f45);
+    box-shadow: 0px 0px 6px #05ce00;
+    margin-bottom: 10px;
+    padding-top: 120px;
+    padding-bottom: 81px;
+}
+
+.modal.show .modal-dialog {
+    transform: none;
+    /* position: relative; */
+   /*  top: 21%; */
+}
+
+a.btn.d-btnb {
+    background: #e2136e;
+    color: #fff;
+    padding: 6px 40px;
+    transition: all 0.25s linear;
+}
+
+a.btn.d-btnb:hover {
+    background: #c70459;
+    color: #fff;
+    padding: 6px 40px;
+}
+
+a.btn.d-btnn {
+    background: #ed1c24;
+    color: #fff;
+    padding: 6px 40px;
+    transition: all 0.25s linear;
+}
+
+a.btn.d-btnn:hover {
+    background: #bb090f;
+}
+
+.modul_footer_image img {
+    width: 80px;
+    margin-top: 25px;
+}
+
+.new-offer {
+    margin-bottom: 100px;
+}
+
+.input_trasition_id {
+    display: none;
+}
+
+/* .company_logo_taka img {
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+ */
+.add-bank {
+    padding-top: 120px;
+}
+
+.modal-body img {
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+.main_balance.bg-white.shadow.rounded-circle {
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    margin: auto;
+}
+
+.main_balance.bg-white.shadow.rounded-circle h2 {
+    line-height: 130px;
+}
+
+
+
+/* Responsive Design Start */
+
+@media (max-width: 320px) {
+    .deshbord_buttom_menu ul li {
+        padding: 0px 6px;
+    }
+    .deshbord_main_contant ul li {
+        padding: 0px 7px;
+    }
+    .deshbord_profile img {
+        width: 60px;
+        height: 60px;
+    }
+    .beshbord_balance {
+        width: 60px;
+        height: 60px;
+    }
+    .profile-text{
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+    .deshbord_profile h4 {
+        margin-left: 0px;
+    }
+    .beshbord_balance h5 {font-size: 14px;line-height: 6px;top: 6px;}
+    
+}
+
+
+@media (max-width: 575px) {
+    .deshbord_buttom_menu ul li a {font-size: 12px}
+    .deshbord_main_contant ul li a {font-size: 15px;}
+    .deshbord_profile h4{font-size: 12px;}
+}
+
+
+/* New Offer */
+.offer_title img{transition: transform .4s;}
+.offer_title img:hover{opacity: 0.8;transform: scale(1.1);transition: transform .4s;}
+
+
+/* Refer List */
+
+.refer_list .input-groupp{width: 90%;margin: 0 auto;}
+
+.refer_list .input-groupp .form-control{-webkit-appearance: auto;-moz-appearance: auto;appearance:auto;}
+
+
+
+    
+    
