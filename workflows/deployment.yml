@@ -15,13 +15,6 @@ jobs:
         with:
           command: |
             cd public_html/freelancer.sebaautomationltd.com/
-            php artisan migrate
-            php artisan route:clear
-            php artisan cache:clear
-            php artisan config:clear
-            php artisan route:cache
-            php artisan optimize
-            composer dump-autoload
           server: ${{ secrets.server_host }}
           port: ${{ secrets.port }}
           username: ${{ secrets.ftp_username }}
